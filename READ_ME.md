@@ -1,6 +1,9 @@
 # General
 This repository is a portfolio of a number of projects that I have worked on over the years and is intended for use in job searching and the like. Files fall into a mixture of different types, some are coding projects, some are writeups of CTFs, some are training documents that I have produced. Where possible I have included documentation that belongs with each of the projects, most of the things in this repository will only be uploaded here after they are finished, where possible I will upload a document describing the commit history for files that were uploaded to git hub throughout their creation.
 
+## Formatting Quirks
+Almost all of the markdown that exists in this repository was written in the program Obsidian and so has formatting quirks unique to the markdown specs of that program
+
 # Folders
 I have tried to divide the folder into different specialties, the main branches being Software dev and cybersecurity although there is obvious overlap between the two and for most of the applications that I have developed here I have tried, where relevant, to apply the principles of secure software dev.
 
