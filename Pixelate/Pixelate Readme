@@ -1,0 +1,5 @@
+Python 3 program that allows a user to use images from their device to create a quiz game within powerpoint.
+
+It was built in the version tkinter that comes with any python3 instalation because one of the machines that was used in the
+build process could not import addtional python modules.
+
