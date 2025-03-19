@@ -14,7 +14,7 @@ Just like a classic beach cocktail, a secure password requires the perfect mix o
 - **Unique**: Each password should be unique to a single login, preventing a breach in one account from compromising others.
 - **Memorable**: The biggest challenge with passwords is remembering them. Consider using passphrases instead of just passwords. Passphrases can be easier to recall and provide enhanced security. Some further simple advice for making memorable passwords can be found [here] and [here].
 
-One thing that can make all of these a lot easier is to use our password manager. Franke recommends you use Edge Password Manager, [here] is a guide on how
+One thing that can make all of these a lot easier is to use our password manager. <Company name> recommends you use Edge Password Manager, [here] is a guide on how
 
 ---
 # Sunscreen & Shade Model
