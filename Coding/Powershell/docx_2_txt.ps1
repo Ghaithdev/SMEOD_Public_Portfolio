@@ -1,4 +1,4 @@
-﻿# Prompt the user for a directory name and store it in $fhand 
+# Prompt the user for a directory name and store it in $fhand 
 $fhand = Read-Host "Enter a directory name"
 $newfname=($fhand + '_txts')
 
