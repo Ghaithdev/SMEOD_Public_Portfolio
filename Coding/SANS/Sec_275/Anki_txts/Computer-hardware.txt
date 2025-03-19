@@ -1,0 +1,237 @@
+Section: Intro to computer hardware
+
+Subsection: Motherboard
+
+What is the name of the piece of computer hardware to which all the other components connect?
+The motherboard.
+
+Subsection: Motherboard, Motherboard sizes
+
+What are the various sizes of a motherboard?
+E-ATX, ATX, micro-ATX & mini-ITX.
+
+Which is the largest size of motherboard in common usage?
+E-ATX.
+
+What type of motherboard do most desktop computers use?
+ATX or E-ATX motherboard
+
+What type of applications are micro-ATX & smaller moterhboards typically used in?
+Laptops or other small form-factor applications.
+
+Subsection: Motherboard, Motherboard Sockets
+
+How are mother boards classified?
+Based on the 'socket' type with which they are compatible.
+
+What is a socket on a motherbard?
+The socket is just a name given to the kind of connector that the CPU processor has.
+
+Why must a motherboard's sockets be compatible with the CPU? 
+Otherwise the CPU simply will not fit.
+
+
+Subsection: Motherboard, Motherboard Buses
+
+What component enables the communication between the others?
+The motherboard does this by using buses.
+
+What are buses on the motherboard?
+Buses are physical connections between the components connected to the motherboard which are responsible for moving data between components
+
+Subsection: Processor
+
+What is the role of the processor in a computer?
+The processor is responsible for executing the instructions contained in computer programs.
+
+Subsection: Processor, Cores
+
+What is the purpose of a processing 'core' in a processor?
+The core is responsible for executing instructions.
+
+How do modern processors differ from older processors in terms of the number of cores they have?
+Modern processors often contain more than one core, allowing them to perform multiple tasks simultaneously, while older processors typically had only a single core.
+
+Subsection: Processor, Clock Speed
+
+How is a processor's speed commonly measured, and what unit is used for this measurement?
+A processor's speed is often measured by how many instructions it can execute in one second, and the unit used for this measurement is hertz (Hz).
+
+What is the clock speed of a processor that can execute 4 billion instructions per second?
+The clock speed of a processor that can execute 4 billion instructions per second is 4 GHz (Gigahertz).
+
+Subsection: Processor, Context Switching
+
+How does a single-core processor give the illusion of performing multiple tasks simultaneously?
+A single-core processor achieves this by using a process called 'context switching,' which involves sharing processor time between multiple applications and quickly swapping between them.
+
+Subsection: RAM
+
+What does RAM stand for, and how is it commonly referred to?
+RAM stands for Random Access Memory and is commonly referred to as 'memory.'
+
+What is the primary difference between RAM and storage?
+RAM is volatile and temporary, while storage retains data even when the computer is powered off.
+
+Subsection: RAM, RAM Speed
+
+Why is RAM considered faster than storage like a hard disk?
+RAM is faster because it allows for quicker access to data than reading data from storage.
+
+Subsection: RAM, RAM Volatility
+
+What happens to data stored in RAM when the computer is switched off?
+Data stored in RAM begins to degrade and is lost when the computer is switched off.
+
+Subsection: RAM, RAM Compatibility
+
+What are the two key factors to consider when dealing with RAM compatibility?
+The two key factors are the type of RAM (e.g., DDR3, DDR4, DDR5) and the RAM speed (measured in MHz).
+
+Which type of RAM is relatively new, and which generation does DDR5 represent?
+DDR5 is relatively new, and it represents the fifth generation of DDR RAM.
+
+When a motherboard specifies that it accepts RAM up to DDR3-2133, what does this mean?
+It means the motherboard supports any DDR3 RAM module with a maximum speed of 2133 MHz or less.
+
+Types of Storage
+Storage is a component that provides data storage. Typically this is a hard drive or SSD (solid state drive). Again, this is often confused with RAM or memory and the terms are used interchangeably in many technical contexts - but the difference in speed and persistence of data are vast!
+
+This is a graphic of a 3.5 inch hard drive. It shows a platter where the data is stored, and an arm used to seek for data that moves around the disk. It is in a rectangular case and has connector pins on one side to connect to the PC.
+
+Here we have a 4 TeraByte 3.5 inch hard drive. At this size, this is a hard drive for use in desktop computers.
+
+Size
+The physical size of the hard drive is important. 3.5 inch hard drives, as in the picture above, are frequently used in desktop computers, however they are rarely seen in laptops due to the amount of space they take up.
+
+Laptops more commonly use the smaller form-factor 2.5 inch hard drives for storage instead. These tend to have a lower maximum capacity than their desktop counterparts. Make sure you pick the right size for your use case if you are purchasing parts!
+
+Capacity
+Aside from the physical size of the drive, each drive has a maximum capacity, the largest amount of data that can be stored on the drive itself. Drives usually have a maximum capacity that is slightly lower than their advertised value. For example, a 4 TB drive cannot actually store 4 TB of data. Usually, the capacity will be about 3.8 TB, so keep this in mind.
+
+Mechanical vs Solid State
+For a long time, the only type of hard drives we had was mechanical drives. These drives contain moving parts and therefore they can be quite unreliable over longer periods of time, or if they are jolted while in use. They are also comparatively slower than their solid state counterparts.
+
+Solid state drives contain no moving parts and therefore they are both more reliable and faster than mechanical drives. However, they are still significantly more expensive than their mechanical counterparts.
+
+Solid state drives include firmware and services to enable their fast operation with a modern computer, but as we will talk about later this can present interesting opportunities and challenges with forensic recovery of data, or secure destruction of data.
+
+Subsection: GPU
+
+What does GPU stand for, and how does it relate to a computer's processing capabilities?
+GPU stands for Graphics Processing Unit, and it serves as another type of processor, particularly excelling in mathematical calculations.
+
+In computers without a dedicated GPU, which component typically performs the graphics-related calculations?
+In computers without a dedicated GPU, the CPU performs graphics-related calculations, although less efficiently than a dedicated GPU.
+
+Subsection: GPU, GPU Offloading
+
+What role does a GPU play when it is present in a computer?
+A GPU offloads calculations necessary for displaying graphics on a monitor from the CPU, providing a performance benefit to the processor.
+
+Where is the GPU usually located, and what additional component is commonly found on the same card as the GPU?
+The GPU usually resides on a card called a 'graphics card,' which also contains its dedicated RAM for storing computer graphics.
+
+Subsection: GPU, Number Crunching
+
+Aside from graphics processing, in what other types of tasks does a GPU excel?
+A GPU excels in tasks involving mathematical calculations, such as 3D rendering, encryption, and even password cracking in cybersecurity.
+
+Subsection: Input Devices
+
+What is the primary function of input devices when connected to computers?
+Input devices send data to computers and are used to control them, providing a way for humans to interface with the computer.
+
+Subsection: Input Devices, USB
+
+What does USB stand for, and what is the most common method of connecting input devices to computers today?
+USB stands for Universal Serial Bus, and it is the most common method of connecting input devices to computers.
+
+How do USB connectors typically look, and why are there different types of USB connections?
+USB connectors are rectangular, and there are different types to accommodate various devices, such as square, rectangular, large, and small connectors.
+
+What is the distinguishing feature of a USB Type-C connection?
+A USB Type-C connection is thin, rectangular, and reversible, allowing cables to be connected in either direction.
+
+What are the main differences in transfer speeds among USB 1, USB 2, USB 3, and USB 3.1?
+USB 1 has a transfer speed of 1.5 Mbit/s, USB 2 has a speed of 480 Mbit/s, USB 3 has a speed of 4.8 Gbit/s (usually colored blue), and USB 3.1 has a speed of 10 Gbit/s (usually colored teal).
+
+Subsection: Input Devices, PS/2
+
+What is the name of the older port that was commonly used before USB became popular for connecting peripherals?
+The older port commonly used before USB was the PS/2 port.
+
+Can you describe the physical appearance of a PS/2 port?
+A PS/2 port is round with pins and a rivet at the top used to orient it correctly when connecting.
+
+Subsection: Output Devices
+
+What are output devices, and can you provide examples of them?
+Output devices are devices that accept data from the computer, such as monitors and printers.
+
+Subsection: Output Devices, VGA
+
+What is VGA, and how does its port look?
+VGA stands for Video Graphics Array, and its port is rectangular with many pins, featuring two small screws on the left and right sides to secure the connection.
+
+Subsection: Output Devices, DVI
+
+How does DVI compare to VGA in terms of port appearance, and what is its primary function?
+DVI ports are more rectangular than VGA, with pins organized in a square matrix. DVI serves as a more modern A/V output standard.
+
+Subsection: Output Devices, HDMI
+
+What capabilities distinguish HDMI from DVI and VGA, and what types of signals can it transmit?
+HDMI is more modern and can transmit both video and audio signals, making it a widely used connection standard.
+
+Subsection: Output Devices, DisplayPort
+
+How does DisplayPort compare to HDMI, and what distinguishes its port?
+DisplayPort is more modern than HDMI, featuring a more rectangular shape with a rounded-off corner to ensure proper connection orientation.
+
+Subsection: Output Devices, USB-C
+
+What are the capabilities of a USB-C connector in terms of video output and device chaining, and what other functionality does it offer?
+USB-C supports video output and hub capabilities for connecting multiple devices, and it can also transfer power.
+
+Subsection: Heat Sinks
+
+Why is managing heat important in computers, and what can excessive heat lead to?
+Managing heat is crucial because computers generate a lot of heat, and excessive heat can damage components.
+
+What is the primary function of a heat sink in a computer, and how does it achieve this?
+A heat sink's primary function is to move heat away from sensitive components, and it achieves this by increasing surface area for efficient cooling.
+
+What is thermal paste, and how is it used with heat sinks?
+Thermal paste is a thermally conductive material applied to one of the components before attaching the heat sink, helping conduct heat by filling imperfections in the surfaces.
+
+Besides the processor, what other computer components are often cooled with heat sinks?
+Graphics cards and some motherboard components may also have heat sinks for cooling.
+
+Subsection: Power Supply
+
+What is the role of the power supply unit (PSU) in a computer?
+The power supply unit (PSU) is responsible for taking power from the mains or a battery (in the case of laptops), converting it, and delivering it to various computer components.
+
+What are some of the components that the power supply typically connects to?
+The power supply usually connects to the motherboard, graphics card(s), hard drive(s), and fans.
+
+Why is it essential to ensure that the power supply's rating matches the power requirements of all computer components?
+Matching the power supply's rating to the power requirements of computer components is crucial to ensure the computer functions correctly and doesn't experience issues like not turning on or random shutdowns due to insufficient power.
+
+Subsection: Power Supply, Connectors
+
+Can you describe the appearance and common use of a four-pin connector?
+A four-pin connector is rectangular with four large pins and is typically used for powering fans.
+
+What is the primary purpose of a SATA power connector, and how does it look?
+A SATA power connector is used for powering hard drives and is rectangular with gold connector pins on one side, designed to fit in tight spaces.
+
+What is the main function of an ATX connection, and how does it appear?
+An ATX connection, with 20 or 24 pins, is used to power the motherboard. It is rectangular with pins aligned in two rows, featuring a catch to secure it on the motherboard.
+
+What is the significance of a 12V power connector, and what are its variations?
+A 12V power connector runs to the motherboard and comes in 4-pin and 8-pin variations, depending on motherboard requirements.
+
+What role does a PCI-E power connector play, and what are its variations?
+A PCI-E power connector usually powers a graphics card and comes in 6-pin and 8-pin variations, sometimes with an optional extra 2 pins.

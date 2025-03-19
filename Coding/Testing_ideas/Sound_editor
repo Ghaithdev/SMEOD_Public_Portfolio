@@ -1,0 +1,21 @@
+from pydub import AudioSegment
+import os
+
+def split_audio_by_silence(input_file, output_prefix, min_silence_duration=500, silence_threshold=-50):
+    audio = AudioSegment.from_file(input_file)
+
+    # Find silences. Adjust min_silence_duration and silence_threshold according to your audio file.
+    silent_ranges = audio.dBFS < silence_threshold
+    start_end_points = [[(start, end)] for start, end in zip(*[iter(silent_ranges)]*2) if start]
+
+    # Split and save each segment
+    for i, (start, end) in enumerate(start_end_points):
+        segment = audio[start[0]:end[0]]
+        output_filename = f"{output_prefix}_{i+1}.wav"
+        segment.export(output_filename, format="wav")
+
+
+if __name__ == "__main__":
+    input_file_path = "path_to_your_input_audio_file.wav"
+    output_prefix = "output_clip"
+    split_audio_by_silence(input_file_path, output_prefix)
