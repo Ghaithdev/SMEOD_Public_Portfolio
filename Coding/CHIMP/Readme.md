@@ -1,6 +1,13 @@
 >[!Info]
 >This program has had all proprietary and sensitive information removed from it, it may not run correctly without modification on other devices due to changes that needed to be made to make sure no process of the company this was produced for has been exposed.
 # Overview
+![Chimp Screenshot](https://github.com/user-attachments/assets/122695f1-6bec-45b7-b6cb-a61b77bd5b02)
+
+![image](https://github.com/user-attachments/assets/542a9596-5913-4bf0-a338-eee5f858f749)
+
+![image](https://github.com/user-attachments/assets/6c59fd9d-832f-4ae2-ba06-644edcd7a974)
+
+
 ## Process 
 ### Process before
 Previously samples were run on a Mass Spec then collected and then counted on a device known as a TC. The counting process creates raw ascii files (these ascii files ) that need to be split into smaller chunks called plates and strung together to reflect the samples that the data was extracted from (creating what are called sample files). These sample files have to be saved onto a drive on which standard users have write permissions. These sample files were then imported into a write only database program, the database was then used to generate data printouts. The fact that users are able to  files in this drive where sample files are stored means that the data could no longer be considered to have integrity and thus all the printouts had to be manually compared to the ascii files in a lengthy process that consumed a lot of the time of highly skilled scientists.
