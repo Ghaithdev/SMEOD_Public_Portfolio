@@ -1802,5 +1802,5 @@ class Labelled_Checkbox():
         self.checkbox=Checkbox(parent, name=text, column=(column+1), row=row)      
 
 if __name__ == '__main__':
-    app = MainApplication("Importer and Checker Working Copy","Company_logo.ico")
+    app = MainApplication("Chimp","Company_logo.ico")
     app.mainloop()
