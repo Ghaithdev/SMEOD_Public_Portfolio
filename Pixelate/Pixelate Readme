@@ -1,5 +1,7 @@
-Python 3 program that allows a user to use images from their device to create a quiz game within powerpoint.
+Pixelate was built in python 3 and requires the following libraries to be downloaded:
+- Pillow
+- Numpy
 
-It was built in the version tkinter that comes with any python3 instalation because one of the machines that was used in the
-build process could not import addtional python modules.
-
+Pixelate is a program that allows a user to make a game vased around the idea of blurred images becoming 
+slowly more apparent to the user. It allows the user to use their own images to creat a game that can be played
+through any presentation software.
