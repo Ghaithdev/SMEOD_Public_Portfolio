@@ -1,4 +1,5 @@
 import PyPDF2
+from tkinter import filedialog
 
 def read_pdf_text(file_path):
     # Open the PDF file in read-binary mode
@@ -23,7 +24,9 @@ def read_pdf_text(file_path):
     return text
 
 # Replace 'your_pdf_file.pdf' with the path to your PDF file
-pdf_text = read_pdf_text(r"C:\Users\Jackb\OneDrive\Documents\Courses\Gaeilge\Gaeilge Gan Stro\Gaeilge_gan_stró_beginners(with_text).pdf")
-with open(r"C:\Users\Jackb\OneDrive\Documents\Courses\Gaeilge\Gaeilge Gan Stro\Gaeilge_gan_stró_beginners.txt",'w+', encoding="utf-8") as file:
+pdf_source=filedialog.askopenfilename(title='Select a pdf',initialdir=(os.path.dirname(__file__)), filetypes=(("All files","*.*"),("ASCII files","*min.*"),("Text files","*.txt")))
+text_output=ppt_location = filedialog.asksaveasfilename(title="Save output",defaultextension=".txt")
+text_output = read_pdf_text(f"{fpath}")
+with open(f"{pdf_source}",'w+', encoding="utf-8") as file:
     file.write(pdf_text)
 print("done")
