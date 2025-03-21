@@ -1,0 +1,30 @@
+# Pre-Requisites
+- [ ] Operating Systems
+	- [x] [[Linux Fundamentals]]
+	- [ ] [[Windows Fundamentals]]
+	- [ ] [[MacOS Fundamentals]]
+- [ ] Scripting
+	- [x] Intro to [[BASH]]
+	- [ ] Intro to [[Windows CL]]
+- [ ] Intro to Networking
+- [ ] Intro to [[Active Directory]]
+- [ ] [[Web Requests]]
+- [x] Penetration Testing Process
+- [ ] [[Network Enumeration]] with [[Nmap]]
+- [ ] Intro to [[Assembly (Language)]]
+# [[SOC Analyst]]
+- [ ] [[Incident handling]] Process
+- [ ] [[Security Monitoring]] & [[SIEM]] Fundamentals
+- [ ] [[Windows Event Logs]] and Finding Evil
+- [ ] Intro to [[Threat Hunting]] with Elastic
+- [ ] Understanding [[Log]] Sources and Investigating with [[Splunk]]
+- [ ] Windows Attacks & Defence
+- [ ] Intro to [[Network Traffic Analysis]]
+- [ ] Intermediate Network Traffic Analysis
+- [ ] Working with IDS/IPS
+- [ ] Into to [[Malware Analysis]]
+- [ ] [[JavaScript]] Deobfuscation
+- [ ] [[YARA]] and [[Sigma]] for SOC Analysts
+- [ ] Introduction to [[Digital Forensics]]
+- [ ] Detecting Windows Attacks with [[Splunk]]
+- [ ] Security Incident Reporting
