@@ -1,0 +1,1 @@
+These are writeups for the units I have studied on the Hack the box academy, while they are labelled as iffensive security in the collective a number of these are actually blue team units from the SOC analyst pathway
