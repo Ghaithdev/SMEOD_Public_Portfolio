@@ -8,6 +8,8 @@ from pytube import YouTube
 import time
 import os
 
+file_path=input("please give path to save results in\n>")
+
 def convert_to_srt(entry, index):
     start_time = entry['start']
     end_time = start_time + entry['duration']
@@ -48,7 +50,7 @@ while True:
         episodes.append(video_request)
 
 
-directory=r"C:\Users\Jackb\OneDrive\Documents\Courses\3rabi\Videos and subs"
+directory=file_path
 
 for episode in episodes:
     try:
